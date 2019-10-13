@@ -8,9 +8,6 @@ module.exports = {
     run: (client, message, args) => {
         message.delete();
 
-        if (!message.member.hasPermission("MANAGE_MESSAGES"))
-            return message.reply("You don't have the required permissions to use this command.").then(m => m.delete(5000));
-
         if (args.length < 1)
             return;
 
