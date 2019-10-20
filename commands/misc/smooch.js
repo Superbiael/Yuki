@@ -1,5 +1,6 @@
 module.exports = {
     name: "smooch",
+    aliases: ["kiss"],
     run: async (client, message, args) => {
         if(message.author.id != "182723698711592960") return;
     number = 3;
