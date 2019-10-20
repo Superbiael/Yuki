@@ -2,7 +2,7 @@ module.exports = {
     name: "quote",
     aliases: ["q"],
     category: "misc",
-    description: "Sends a random quote... or a meme. | alias: q",
+    description: "Sends a random quote out of 42 | alias: q",
     run: async (client, message, args) => {
         number = 42;
         var random = Math.floor (Math.random() * (number)) + 1;
